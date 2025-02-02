@@ -1,4 +1,3 @@
-import { promises } from 'node:dns';
 
 export async function getIP(): Promise<string>{
   const url = 'https://icanhazip.com';
